@@ -1,0 +1,348 @@
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\bin\MyLogin.dll.config
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\bin\MyLogin.dll
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\bin\MyLogin.pdb
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\bin\roslyn\csc.exe
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\bin\roslyn\csc.exe.config
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\bin\roslyn\csc.rsp
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\bin\roslyn\csi.exe
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\bin\roslyn\csi.exe.config
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\bin\roslyn\csi.rsp
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\bin\roslyn\System.AppContext.dll
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\bin\roslyn\System.Console.dll
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\bin\roslyn\System.IO.Compression.dll
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\bin\roslyn\System.IO.Pipes.dll
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\bin\roslyn\System.Security.Claims.dll
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\bin\roslyn\System.ValueTuple.dll
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\bin\roslyn\System.Xml.XPath.dll
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\bin\roslyn\vbc.exe
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\bin\roslyn\vbc.exe.config
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\bin\roslyn\vbc.rsp
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\bin\roslyn\VBCSCompiler.exe
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\bin\Antlr3.Runtime.dll
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\bin\EntityFramework.dll
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\bin\EntityFramework.SqlServer.dll
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\bin\Newtonsoft.Json.dll
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\bin\System.Web.Helpers.dll
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\bin\System.Web.Mvc.dll
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\bin\System.Web.Optimization.dll
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\bin\System.Web.Razor.dll
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\bin\System.Web.WebPages.Deployment.dll
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\bin\System.Web.WebPages.dll
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\bin\System.Web.WebPages.Razor.dll
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\bin\WebGrease.dll
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\bin\EntityFramework.xml
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\bin\EntityFramework.SqlServer.xml
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\bin\System.Web.Helpers.xml
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\bin\System.Web.Mvc.xml
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\bin\System.Web.Optimization.xml
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\bin\System.Web.Razor.xml
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\bin\System.Web.WebPages.xml
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\bin\System.Web.WebPages.Deployment.xml
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\bin\System.Web.WebPages.Razor.xml
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\bin\Newtonsoft.Json.xml
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\bin\Antlr3.Runtime.pdb
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\bin\es\System.Web.Helpers.resources.dll
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\bin\es\System.Web.Mvc.resources.dll
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\bin\es\System.Web.Optimization.resources.dll
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\bin\es\System.Web.Razor.resources.dll
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\bin\es\System.Web.WebPages.resources.dll
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\obj\Debug\MyLogin.csprojAssemblyReference.cache
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\obj\Debug\MyLogin.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\obj\Debug\MyLogin.csproj.CopyComplete
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\obj\Debug\MyLogin.dll
+C:\Users\USUARIO\Desktop\U\6.to\Arquitectura de sistemas\MyLogin\MyLogin\obj\Debug\MyLogin.pdb
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\bin\MyLogin.dll.config
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\bin\MyLogin.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\bin\MyLogin.pdb
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\bin\roslyn\csc.exe
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\bin\roslyn\csc.exe.config
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\bin\roslyn\csc.rsp
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\bin\roslyn\csi.exe
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\bin\roslyn\csi.exe.config
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\bin\roslyn\csi.rsp
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\bin\roslyn\System.AppContext.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\bin\roslyn\System.Collections.Immutable.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\bin\roslyn\System.Console.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\bin\roslyn\System.IO.Compression.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\bin\roslyn\System.IO.FileSystem.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\bin\roslyn\System.IO.Pipes.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\bin\roslyn\System.Reflection.Metadata.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\bin\roslyn\System.Security.AccessControl.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\bin\roslyn\System.Security.Claims.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\bin\roslyn\System.Security.Principal.Windows.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\bin\roslyn\System.ValueTuple.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\bin\roslyn\System.Xml.XPath.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\bin\roslyn\vbc.exe
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\bin\roslyn\vbc.exe.config
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\bin\roslyn\vbc.rsp
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\bin\roslyn\VBCSCompiler.exe
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\bin\roslyn\VBCSCompiler.exe.config
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\bin\Antlr3.Runtime.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\bin\EntityFramework.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\bin\EntityFramework.SqlServer.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\bin\Microsoft.Web.Infrastructure.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\bin\Newtonsoft.Json.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\bin\System.Web.Helpers.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\bin\System.Web.Mvc.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\bin\System.Web.Optimization.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\bin\System.Web.Razor.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\bin\System.Web.WebPages.Deployment.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\bin\System.Web.WebPages.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\bin\System.Web.WebPages.Razor.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\bin\WebGrease.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\bin\EntityFramework.xml
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\bin\EntityFramework.SqlServer.xml
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\bin\System.Web.Helpers.xml
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\bin\System.Web.Mvc.xml
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\bin\System.Web.Optimization.xml
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\bin\System.Web.Razor.xml
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\bin\System.Web.WebPages.xml
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\bin\System.Web.WebPages.Deployment.xml
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\bin\System.Web.WebPages.Razor.xml
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\bin\Newtonsoft.Json.xml
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\bin\Antlr3.Runtime.pdb
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\bin\es\System.Web.Helpers.resources.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\bin\es\System.Web.Mvc.resources.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\bin\es\System.Web.Optimization.resources.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\bin\es\System.Web.Razor.resources.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\bin\es\System.Web.WebPages.resources.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\bin\es\System.Web.WebPages.Deployment.resources.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\bin\es\System.Web.WebPages.Razor.resources.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\obj\Debug\MyLogin.csprojAssemblyReference.cache
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\obj\Debug\MyLogin.csproj.CoreCompileInputs.cache
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\obj\Debug\MyLogin.csproj.CopyComplete
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\obj\Debug\MyLogin.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MyLogin\MyLogin\obj\Debug\MyLogin.pdb
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\bin\MyLogin.dll.config
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\bin\MyLogin.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\bin\MyLogin.pdb
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\bin\roslyn\csc.exe
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\bin\roslyn\csc.exe.config
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\bin\roslyn\csc.rsp
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\bin\roslyn\csi.exe
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\bin\roslyn\csi.exe.config
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\bin\roslyn\csi.rsp
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\bin\roslyn\System.AppContext.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\bin\roslyn\System.Collections.Immutable.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\bin\roslyn\System.Console.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\bin\roslyn\System.IO.Compression.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\bin\roslyn\System.IO.FileSystem.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\bin\roslyn\System.IO.Pipes.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\bin\roslyn\System.Reflection.Metadata.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\bin\roslyn\System.Security.AccessControl.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\bin\roslyn\System.Security.Claims.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\bin\roslyn\System.Security.Principal.Windows.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\bin\roslyn\System.ValueTuple.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\bin\roslyn\System.Xml.XPath.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\bin\roslyn\vbc.exe
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\bin\roslyn\vbc.exe.config
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\bin\roslyn\vbc.rsp
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\bin\roslyn\VBCSCompiler.exe
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\bin\roslyn\VBCSCompiler.exe.config
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\bin\Antlr3.Runtime.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\bin\EntityFramework.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\bin\EntityFramework.SqlServer.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\bin\Microsoft.Web.Infrastructure.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\bin\Newtonsoft.Json.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\bin\System.Web.Helpers.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\bin\System.Web.Mvc.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\bin\System.Web.Optimization.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\bin\System.Web.Razor.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\bin\System.Web.WebPages.Deployment.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\bin\System.Web.WebPages.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\bin\System.Web.WebPages.Razor.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\bin\WebGrease.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\bin\EntityFramework.xml
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\bin\EntityFramework.SqlServer.xml
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\bin\System.Web.Helpers.xml
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\bin\System.Web.Mvc.xml
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\bin\System.Web.Optimization.xml
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\bin\System.Web.Razor.xml
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\bin\System.Web.WebPages.xml
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\bin\System.Web.WebPages.Deployment.xml
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\bin\System.Web.WebPages.Razor.xml
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\bin\Newtonsoft.Json.xml
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\bin\Antlr3.Runtime.pdb
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\bin\es\System.Web.Helpers.resources.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\bin\es\System.Web.Mvc.resources.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\bin\es\System.Web.Optimization.resources.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\bin\es\System.Web.Razor.resources.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\bin\es\System.Web.WebPages.resources.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\bin\es\System.Web.WebPages.Deployment.resources.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\bin\es\System.Web.WebPages.Razor.resources.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\obj\Debug\MyLogin.csproj.CopyComplete
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\obj\Debug\MyLogin.dll
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\obj\Debug\MyLogin.pdb
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\obj\Debug\MyLogin.csproj.AssemblyReference.cache
+E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\obj\Debug\MyLogin.csproj.CoreCompileInputs.cache
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\bin\MyLogin.dll.config
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\bin\MyLogin.dll
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\bin\MyLogin.pdb
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\bin\roslyn\csc.exe
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\bin\roslyn\csc.exe.config
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\bin\roslyn\csc.rsp
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\bin\roslyn\csi.exe
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\bin\roslyn\csi.exe.config
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\bin\roslyn\csi.rsp
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\bin\roslyn\System.AppContext.dll
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\bin\roslyn\System.Collections.Immutable.dll
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\bin\roslyn\System.Console.dll
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\bin\roslyn\System.IO.Compression.dll
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\bin\roslyn\System.IO.FileSystem.dll
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\bin\roslyn\System.IO.Pipes.dll
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\bin\roslyn\System.Reflection.Metadata.dll
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\bin\roslyn\System.Security.AccessControl.dll
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\bin\roslyn\System.Security.Claims.dll
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\bin\roslyn\System.ValueTuple.dll
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\bin\roslyn\System.Xml.XPath.dll
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\bin\roslyn\vbc.exe
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\bin\roslyn\vbc.exe.config
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\bin\roslyn\vbc.rsp
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\bin\roslyn\VBCSCompiler.exe
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\bin\roslyn\VBCSCompiler.exe.config
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\bin\Antlr3.Runtime.dll
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\bin\EntityFramework.dll
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\bin\EntityFramework.SqlServer.dll
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\bin\Microsoft.Web.Infrastructure.dll
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\bin\Newtonsoft.Json.dll
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\bin\System.Web.Helpers.dll
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\bin\System.Web.Mvc.dll
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\bin\System.Web.Optimization.dll
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\bin\System.Web.Razor.dll
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\bin\System.Web.WebPages.Deployment.dll
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\bin\System.Web.WebPages.dll
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\bin\System.Web.WebPages.Razor.dll
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\bin\WebGrease.dll
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\bin\EntityFramework.xml
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\bin\EntityFramework.SqlServer.xml
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\bin\System.Web.Helpers.xml
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\bin\System.Web.Mvc.xml
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\bin\System.Web.Optimization.xml
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\bin\System.Web.Razor.xml
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\bin\System.Web.WebPages.xml
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\bin\System.Web.WebPages.Deployment.xml
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\bin\System.Web.WebPages.Razor.xml
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\bin\Newtonsoft.Json.xml
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\bin\Antlr3.Runtime.pdb
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\bin\es\System.Web.Helpers.resources.dll
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\bin\es\System.Web.Mvc.resources.dll
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\bin\es\System.Web.Optimization.resources.dll
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\bin\es\System.Web.Razor.resources.dll
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\bin\es\System.Web.WebPages.resources.dll
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\bin\es\System.Web.WebPages.Deployment.resources.dll
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\bin\es\System.Web.WebPages.Razor.resources.dll
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\obj\Debug\MyLogin.csproj.AssemblyReference.cache
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\obj\Debug\MyLogin.csproj.CoreCompileInputs.cache
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\obj\Debug\MyLogin.csproj.CopyComplete
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\obj\Debug\MyLogin.dll
+D:\Intecap\Cuarto Modulo\ProyectoMVCRapidito\MyLogin\obj\Debug\MyLogin.pdb

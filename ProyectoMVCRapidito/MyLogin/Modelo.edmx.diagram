@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="cf45c17f6c6f4c30aad3537fc4da0cc6" Name="Diagram1" ZoomLevel="72">
+        <EntityTypeShape EntityType="DatabaseMyLoginModel.Accesorio" Width="1.5" PointX="5.5" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseMyLoginModel.Cliente" Width="1.5" PointX="0.75" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseMyLoginModel.Mascota" Width="1.5" PointX="2.875" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseMyLoginModel.Medicamento" Width="1.5" PointX="8.5" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseMyLoginModel.Servicio" Width="1.5" PointX="5.5" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseMyLoginModel.Tipo" Width="1.5" PointX="2.875" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseMyLoginModel.Usuarios" Width="1.5" PointX="0.75" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseMyLoginModel.Vacuna" Width="1.5" PointX="8.5" PointY="6.375" IsExpanded="true" />
+        <AssociationConnector Association="DatabaseMyLoginModel.FK_Servicio_ToTable" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseMyLoginModel.FK_Mascota_ToTable" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseMyLoginModel.FK_Mascota_ToTable_1" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseMyLoginModel.FK_Servicio_ToTable_2" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseMyLoginModel.FK_Medicamento_ToTable" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseMyLoginModel.FK_Servicio_ToTable_1" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

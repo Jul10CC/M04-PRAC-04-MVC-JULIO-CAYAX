@@ -1,0 +1,193 @@
+﻿
+@{
+    ViewBag.Title = "AfterLogin";
+}
+<!doctype html>
+<html lang="en">
+<head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600i,700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!--Bootstrap CSS-->
+    <title>Bootstrap</title>
+</head>
+<style type="text/css">
+    body {
+        font-family: 'Titillium Web', sans-serif;
+    }
+
+    .navbar {
+        background: white;
+        box-shadow: 0 2px 44px 0 rgb(0,0,1.05);
+        min-width: 200px;
+    }
+
+    .nav-link {
+        color: black;
+    }
+
+        .nav-link:hover {
+            color: black;
+        }
+
+    h2 {
+        color: white;
+        font-size: 150%;
+        font-weight: bold;
+        font-style: oblique;
+    }
+    h1 {
+        color: #623A17;
+        font-size: 200%;
+        font-weight: bold;
+        font-style: oblique;
+    }
+
+    #central {
+        background-image: url('https://thelogisticsworld.com/wp-content/uploads/2021/12/servicios-paqueteria.jpg');
+        background-size: cover;
+        padding-top: 190px;
+        height: 900px;
+    }
+
+    .contenido-centrado {
+        max-width: 1000px;
+        margin: 0 auto 80px auto;
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        font-size: 125%;
+    }
+
+    .contenido-centrado2 {
+        max-width: 800px;
+        margin: 0 auto 80px auto;
+        text-align: center;
+        color: black;
+        font-weight: bold;
+        font-size: 125%;
+    }
+
+    .btn {
+        font-size: 15px;
+        padding: 15px 26px;
+        min-width: 160px;
+        border-radius: 2px;
+        display: inline-block;
+    }
+
+    .btn-bl {
+        background-color: #E7E7E7;
+        color: black;
+        border: #23BE52 5px solid
+    }
+
+    .btn i {
+        margin-left: 5px;
+    }
+
+    .beneficios-detalles {
+        position: absolute;
+        bottom: 25px;
+        left: 25px;
+        z-index: 9000;
+    }
+
+        .beneficios-detalles a h2, .beneficios-detalles a p {
+            color: white;
+        }
+
+    a:hover {
+        text-decoration: none;
+    }
+
+    .beneficios-detalles h2 {
+        margin-bottom: 0px;
+    }
+
+    .beneficios-contenido img {
+        -moz-transition: all 0.8s;
+        -webkit-transition: all 0.8s;
+        transition: all 0.8s;
+    }
+
+    .beneficios-contenido:hover img {
+        -moz-transforms: scale(1.2);
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+</style>
+<body style="background-color: #F6DDC7">
+    <div class="container">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <div class="container">
+            <nav class="navbar  fixed-top navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1veC84usvro75PBfuSK_Eq_Kg6OyI1budckmmR_WDo54oT9ufJZ4T_k7CqDl1PqUdinw&usqp=CAU" alt="" width="50" height="50">  </a>
+                <h1>Rapiditos</h1>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="navbar-toggler-icon"></i>
+                </button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                @if (Session["LogedUserFullname"] != null)
+                {
+                    <text>
+                        Bienvenido @Session["LogedUserFullname"].ToString()
+                    </text>
+                }
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="https://localhost:44340/Home/Login" id="inicio">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" id="beneficios">Redes sociales</a>
+                        </li>
+                        <li class="nav-item">
+
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="https://localhost:44340/Home/Login" id="registrar">Cerrar Sesion</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <section id="central">
+            <div class="container">
+                <div class="contenido-centrado">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <h1>Bienvenidos</h1>
+                    <p>
+                        Aquí puedes acceder a diferentes modulos de la pagina.
+                    </p>
+                    <a href="http://localhost:52223/Animals/Index" class="btn btn-bl">Clientes <i class="icon ion-md-person"></i></a>
+                    <a href="http://localhost:52223/AnimalZoos/Index" class="btn btn-bl">Pagos<i class="icon ion-md-home"></i></a>
+                    <a href="http://localhost:52223/Pais/Index" class="btn btn-bl">Destino<i class="icon ion-md-airplane"></i></a>
+                    <br>
+                </div>
+        </section>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+

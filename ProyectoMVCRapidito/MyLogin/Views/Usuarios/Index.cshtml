@@ -1,0 +1,168 @@
+﻿@model IEnumerable<MyLogin.Usuarios>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<!doctype html>
+<html lang="en">
+<head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600i,700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <!--Bootstrap CSS-->
+    <title>Bootstrap</title>
+</head>
+<style type="text/css">
+    body {
+        font-family: 'Titillium Web', sans-serif;
+    }
+
+    .navbar {
+        background: white;
+        box-shadow: 0 2px 44px 0 rgb(0,0,1.05);
+        min-width: 200px;
+    }
+
+    .nav-link {
+        color: black;
+    }
+
+        .nav-link:hover {
+            color: black;
+        }
+
+    h2 {
+        color: white;
+        font-size: 150%;
+        font-weight: bold;
+        font-style: oblique;
+    }
+
+    #central {
+        background-image: url('https://cdn1.vectorstock.com/i/1000x1000/32/10/pet-shop-logo-design-vector-23703210.jpg');
+        background-size: cover;
+        padding-top: 190px;
+        height: 900px;
+    }
+
+    .contenido-centrado {
+        max-width: 1000px;
+        margin: 0 auto 80px auto;
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        font-size: 125%;
+    }
+
+    .contenido-centrado2 {
+        max-width: 800px;
+        margin: 0 auto 80px auto;
+        text-align: center;
+        color: black;
+        font-weight: bold;
+        font-size: 125%;
+    }
+
+    .btn {
+        font-size: 15px;
+        padding: 15px 26px;
+        min-width: 160px;
+        border-radius: 2px;
+        display: inline-block;
+    }
+
+    .btn-bl {
+        background-color: #E7E7E7;
+        color: black;
+        border: #23BE52 5px solid
+    }
+
+    .btn i {
+        margin-left: 5px;
+    }
+</style>
+<body background="https://static.vecteezy.com/system/resources/previews/002/731/792/large_2x/light-gray-template-with-lines-colorful-gradient-illustration-with-abstract-flat-lines-pattern-for-websites-landing-pages-vector.jpg">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <div class="container">
+        <nav class="navbar  fixed-top navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1veC84usvro75PBfuSK_Eq_Kg6OyI1budckmmR_WDo54oT9ufJZ4T_k7CqDl1PqUdinw&usqp=CAU" alt="" width="50" height="50">  </a>
+            <h1>Rapiditos</h1>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="navbar-toggler-icon"></i>
+            </button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            @if (Session["LogedUserFullname"] != null)
+            {
+                <text>
+                    Bienvenido @Session["LogedUserFullname"].ToString()
+                </text>
+            }
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="https://localhost:44340/Home/Login" id="inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="beneficios">Redes sociales</a>
+                    </li>
+                    <li class="nav-item">
+
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="https://localhost:44340/Home/Login" id="registrar">Cerrar Sesion</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <br>
+    <br>
+    <div class="container">
+        <p>
+            @Html.ActionLink("Create New", "Create")
+        </p>
+        <table class="w3-table w3-striped w3-bordered">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.NombreCompleto)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.NombreUsuario)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Password)
+                </th>
+                <th></th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.NombreCompleto)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.NombreUsuario)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Password)
+                    </td>
+                    <td>
+                        @Html.ActionLink("Editar", "Edit", new { id = item.Id }) |
+                        @Html.ActionLink("Detalles", "Details", new { id = item.Id }) |
+                        @Html.ActionLink("Borrar", "Delete", new { id = item.Id })
+                    </td>
+                </tr>
+            }
+
+        </table>
+    </div>
+</body>
+    </html>

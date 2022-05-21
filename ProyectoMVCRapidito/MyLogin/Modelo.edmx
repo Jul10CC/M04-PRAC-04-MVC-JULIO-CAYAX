@@ -1,0 +1,511 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="DatabaseMyLoginModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Accesorio">
+          <Key>
+            <PropertyRef Name="accesorioID" />
+          </Key>
+          <Property Name="accesorioID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Nombre" Type="nchar" MaxLength="30" />
+          <Property Name="Unidades" Type="nchar" MaxLength="10" />
+          <Property Name="Precio" Type="nchar" MaxLength="10" />
+        </EntityType>
+        <EntityType Name="Cliente">
+          <Key>
+            <PropertyRef Name="clienteID" />
+          </Key>
+          <Property Name="clienteID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Nombre" Type="nchar" MaxLength="30" />
+          <Property Name="Apellido" Type="nchar" MaxLength="30" />
+          <Property Name="Ciudad" Type="nchar" MaxLength="30" />
+          <Property Name="Nit" Type="nchar" MaxLength="30" />
+        </EntityType>
+        <EntityType Name="Mascota">
+          <Key>
+            <PropertyRef Name="mascotaID" />
+          </Key>
+          <Property Name="mascotaID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Nombre" Type="nchar" MaxLength="30" />
+          <Property Name="Edad" Type="nchar" MaxLength="10" />
+          <Property Name="Genero" Type="nchar" MaxLength="30" />
+          <Property Name="IDcliente" Type="int" />
+          <Property Name="IDtipo" Type="int" />
+        </EntityType>
+        <EntityType Name="Medicamento">
+          <Key>
+            <PropertyRef Name="medicamentoID" />
+          </Key>
+          <Property Name="medicamentoID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Nombre" Type="nchar" MaxLength="30" />
+          <Property Name="Cantidad" Type="nchar" MaxLength="30" />
+          <Property Name="Fecha_Caducidad" Type="nchar" MaxLength="30" />
+          <Property Name="IDvacuna" Type="int" />
+        </EntityType>
+        <EntityType Name="Servicio">
+          <Key>
+            <PropertyRef Name="servicioID" />
+          </Key>
+          <Property Name="servicioID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Nombre" Type="nchar" MaxLength="30" />
+          <Property Name="Descripion" Type="nchar" MaxLength="30" />
+          <Property Name="Precio" Type="nchar" MaxLength="30" />
+          <Property Name="Fecha" Type="nchar" MaxLength="30" />
+          <Property Name="IDaccesorio" Type="int" />
+          <Property Name="IDmedicamento" Type="int" />
+          <Property Name="IDmascota" Type="int" />
+        </EntityType>
+        <EntityType Name="Tipo">
+          <Key>
+            <PropertyRef Name="tipoID" />
+          </Key>
+          <Property Name="tipoID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Nombre" Type="nchar" MaxLength="20" />
+          <Property Name="Raza" Type="nchar" MaxLength="20" />
+        </EntityType>
+        <EntityType Name="Usuarios">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="NombreCompleto" Type="nvarchar" MaxLength="50" />
+          <Property Name="NombreUsuario" Type="nvarchar" MaxLength="50" />
+          <Property Name="Password" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Vacuna">
+          <Key>
+            <PropertyRef Name="vacunaID" />
+          </Key>
+          <Property Name="vacunaID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Nombre" Type="nchar" MaxLength="30" />
+          <Property Name="Tipo" Type="nchar" MaxLength="30" />
+          <Property Name="Dosis" Type="nchar" MaxLength="30" />
+        </EntityType>
+        <Association Name="FK_Mascota_ToTable">
+          <End Role="Cliente" Type="Self.Cliente" Multiplicity="0..1" />
+          <End Role="Mascota" Type="Self.Mascota" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Cliente">
+              <PropertyRef Name="clienteID" />
+            </Principal>
+            <Dependent Role="Mascota">
+              <PropertyRef Name="IDcliente" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Mascota_ToTable_1">
+          <End Role="Tipo" Type="Self.Tipo" Multiplicity="0..1" />
+          <End Role="Mascota" Type="Self.Mascota" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Tipo">
+              <PropertyRef Name="tipoID" />
+            </Principal>
+            <Dependent Role="Mascota">
+              <PropertyRef Name="IDtipo" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Medicamento_ToTable">
+          <End Role="Vacuna" Type="Self.Vacuna" Multiplicity="0..1" />
+          <End Role="Medicamento" Type="Self.Medicamento" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Vacuna">
+              <PropertyRef Name="vacunaID" />
+            </Principal>
+            <Dependent Role="Medicamento">
+              <PropertyRef Name="IDvacuna" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Servicio_ToTable">
+          <End Role="Accesorio" Type="Self.Accesorio" Multiplicity="0..1" />
+          <End Role="Servicio" Type="Self.Servicio" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Accesorio">
+              <PropertyRef Name="accesorioID" />
+            </Principal>
+            <Dependent Role="Servicio">
+              <PropertyRef Name="IDaccesorio" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Servicio_ToTable_1">
+          <End Role="Medicamento" Type="Self.Medicamento" Multiplicity="0..1" />
+          <End Role="Servicio" Type="Self.Servicio" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Medicamento">
+              <PropertyRef Name="medicamentoID" />
+            </Principal>
+            <Dependent Role="Servicio">
+              <PropertyRef Name="IDmedicamento" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Servicio_ToTable_2">
+          <End Role="Mascota" Type="Self.Mascota" Multiplicity="0..1" />
+          <End Role="Servicio" Type="Self.Servicio" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Mascota">
+              <PropertyRef Name="mascotaID" />
+            </Principal>
+            <Dependent Role="Servicio">
+              <PropertyRef Name="IDmascota" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="DatabaseMyLoginModelStoreContainer">
+          <EntitySet Name="Accesorio" EntityType="Self.Accesorio" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Cliente" EntityType="Self.Cliente" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Mascota" EntityType="Self.Mascota" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Medicamento" EntityType="Self.Medicamento" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Servicio" EntityType="Self.Servicio" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Tipo" EntityType="Self.Tipo" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Usuarios" EntityType="Self.Usuarios" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Vacuna" EntityType="Self.Vacuna" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_Mascota_ToTable" Association="Self.FK_Mascota_ToTable">
+            <End Role="Cliente" EntitySet="Cliente" />
+            <End Role="Mascota" EntitySet="Mascota" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Mascota_ToTable_1" Association="Self.FK_Mascota_ToTable_1">
+            <End Role="Tipo" EntitySet="Tipo" />
+            <End Role="Mascota" EntitySet="Mascota" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Medicamento_ToTable" Association="Self.FK_Medicamento_ToTable">
+            <End Role="Vacuna" EntitySet="Vacuna" />
+            <End Role="Medicamento" EntitySet="Medicamento" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Servicio_ToTable" Association="Self.FK_Servicio_ToTable">
+            <End Role="Accesorio" EntitySet="Accesorio" />
+            <End Role="Servicio" EntitySet="Servicio" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Servicio_ToTable_1" Association="Self.FK_Servicio_ToTable_1">
+            <End Role="Medicamento" EntitySet="Medicamento" />
+            <End Role="Servicio" EntitySet="Servicio" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Servicio_ToTable_2" Association="Self.FK_Servicio_ToTable_2">
+            <End Role="Mascota" EntitySet="Mascota" />
+            <End Role="Servicio" EntitySet="Servicio" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="DatabaseMyLoginModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Accesorio">
+          <Key>
+            <PropertyRef Name="accesorioID" />
+          </Key>
+          <Property Name="accesorioID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Nombre" Type="String" MaxLength="30" FixedLength="true" Unicode="true" />
+          <Property Name="Unidades" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Name="Precio" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+          <NavigationProperty Name="Servicio" Relationship="Self.FK_Servicio_ToTable" FromRole="Accesorio" ToRole="Servicio" />
+        </EntityType>
+        <EntityType Name="Cliente">
+          <Key>
+            <PropertyRef Name="clienteID" />
+          </Key>
+          <Property Name="clienteID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Nombre" Type="String" MaxLength="30" FixedLength="true" Unicode="true" />
+          <Property Name="Apellido" Type="String" MaxLength="30" FixedLength="true" Unicode="true" />
+          <Property Name="Ciudad" Type="String" MaxLength="30" FixedLength="true" Unicode="true" />
+          <Property Name="Nit" Type="String" MaxLength="30" FixedLength="true" Unicode="true" />
+          <NavigationProperty Name="Mascota" Relationship="Self.FK_Mascota_ToTable" FromRole="Cliente" ToRole="Mascota" />
+        </EntityType>
+        <EntityType Name="Mascota">
+          <Key>
+            <PropertyRef Name="mascotaID" />
+          </Key>
+          <Property Name="mascotaID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Nombre" Type="String" MaxLength="30" FixedLength="true" Unicode="true" />
+          <Property Name="Edad" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Name="Genero" Type="String" MaxLength="30" FixedLength="true" Unicode="true" />
+          <Property Name="IDcliente" Type="Int32" />
+          <Property Name="IDtipo" Type="Int32" />
+          <NavigationProperty Name="Cliente" Relationship="Self.FK_Mascota_ToTable" FromRole="Mascota" ToRole="Cliente" />
+          <NavigationProperty Name="Tipo" Relationship="Self.FK_Mascota_ToTable_1" FromRole="Mascota" ToRole="Tipo" />
+          <NavigationProperty Name="Servicio" Relationship="Self.FK_Servicio_ToTable_2" FromRole="Mascota" ToRole="Servicio" />
+        </EntityType>
+        <EntityType Name="Medicamento">
+          <Key>
+            <PropertyRef Name="medicamentoID" />
+          </Key>
+          <Property Name="medicamentoID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Nombre" Type="String" MaxLength="30" FixedLength="true" Unicode="true" />
+          <Property Name="Cantidad" Type="String" MaxLength="30" FixedLength="true" Unicode="true" />
+          <Property Name="Fecha_Caducidad" Type="String" MaxLength="30" FixedLength="true" Unicode="true" />
+          <Property Name="IDvacuna" Type="Int32" />
+          <NavigationProperty Name="Vacuna" Relationship="Self.FK_Medicamento_ToTable" FromRole="Medicamento" ToRole="Vacuna" />
+          <NavigationProperty Name="Servicio" Relationship="Self.FK_Servicio_ToTable_1" FromRole="Medicamento" ToRole="Servicio" />
+        </EntityType>
+        <EntityType Name="Servicio">
+          <Key>
+            <PropertyRef Name="servicioID" />
+          </Key>
+          <Property Name="servicioID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Nombre" Type="String" MaxLength="30" FixedLength="true" Unicode="true" />
+          <Property Name="Descripion" Type="String" MaxLength="30" FixedLength="true" Unicode="true" />
+          <Property Name="Precio" Type="String" MaxLength="30" FixedLength="true" Unicode="true" />
+          <Property Name="Fecha" Type="String" MaxLength="30" FixedLength="true" Unicode="true" />
+          <Property Name="IDaccesorio" Type="Int32" />
+          <Property Name="IDmedicamento" Type="Int32" />
+          <Property Name="IDmascota" Type="Int32" />
+          <NavigationProperty Name="Accesorio" Relationship="Self.FK_Servicio_ToTable" FromRole="Servicio" ToRole="Accesorio" />
+          <NavigationProperty Name="Mascota" Relationship="Self.FK_Servicio_ToTable_2" FromRole="Servicio" ToRole="Mascota" />
+          <NavigationProperty Name="Medicamento" Relationship="Self.FK_Servicio_ToTable_1" FromRole="Servicio" ToRole="Medicamento" />
+        </EntityType>
+        <EntityType Name="Tipo">
+          <Key>
+            <PropertyRef Name="tipoID" />
+          </Key>
+          <Property Name="tipoID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Nombre" Type="String" MaxLength="20" FixedLength="true" Unicode="true" />
+          <Property Name="Raza" Type="String" MaxLength="20" FixedLength="true" Unicode="true" />
+          <NavigationProperty Name="Mascota" Relationship="Self.FK_Mascota_ToTable_1" FromRole="Tipo" ToRole="Mascota" />
+        </EntityType>
+        <EntityType Name="Usuarios">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="NombreCompleto" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="NombreUsuario" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Vacuna">
+          <Key>
+            <PropertyRef Name="vacunaID" />
+          </Key>
+          <Property Name="vacunaID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Nombre" Type="String" MaxLength="30" FixedLength="true" Unicode="true" />
+          <Property Name="Tipo" Type="String" MaxLength="30" FixedLength="true" Unicode="true" />
+          <Property Name="Dosis" Type="String" MaxLength="30" FixedLength="true" Unicode="true" />
+          <NavigationProperty Name="Medicamento" Relationship="Self.FK_Medicamento_ToTable" FromRole="Vacuna" ToRole="Medicamento" />
+        </EntityType>
+        <Association Name="FK_Servicio_ToTable">
+          <End Role="Accesorio" Type="Self.Accesorio" Multiplicity="0..1" />
+          <End Role="Servicio" Type="Self.Servicio" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Accesorio">
+              <PropertyRef Name="accesorioID" />
+            </Principal>
+            <Dependent Role="Servicio">
+              <PropertyRef Name="IDaccesorio" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Mascota_ToTable">
+          <End Role="Cliente" Type="Self.Cliente" Multiplicity="0..1" />
+          <End Role="Mascota" Type="Self.Mascota" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Cliente">
+              <PropertyRef Name="clienteID" />
+            </Principal>
+            <Dependent Role="Mascota">
+              <PropertyRef Name="IDcliente" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Mascota_ToTable_1">
+          <End Role="Tipo" Type="Self.Tipo" Multiplicity="0..1" />
+          <End Role="Mascota" Type="Self.Mascota" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Tipo">
+              <PropertyRef Name="tipoID" />
+            </Principal>
+            <Dependent Role="Mascota">
+              <PropertyRef Name="IDtipo" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Servicio_ToTable_2">
+          <End Role="Mascota" Type="Self.Mascota" Multiplicity="0..1" />
+          <End Role="Servicio" Type="Self.Servicio" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Mascota">
+              <PropertyRef Name="mascotaID" />
+            </Principal>
+            <Dependent Role="Servicio">
+              <PropertyRef Name="IDmascota" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Medicamento_ToTable">
+          <End Role="Vacuna" Type="Self.Vacuna" Multiplicity="0..1" />
+          <End Role="Medicamento" Type="Self.Medicamento" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Vacuna">
+              <PropertyRef Name="vacunaID" />
+            </Principal>
+            <Dependent Role="Medicamento">
+              <PropertyRef Name="IDvacuna" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Servicio_ToTable_1">
+          <End Role="Medicamento" Type="Self.Medicamento" Multiplicity="0..1" />
+          <End Role="Servicio" Type="Self.Servicio" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Medicamento">
+              <PropertyRef Name="medicamentoID" />
+            </Principal>
+            <Dependent Role="Servicio">
+              <PropertyRef Name="IDmedicamento" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="DatabaseMyLoginEntities1" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Accesorio" EntityType="Self.Accesorio" />
+          <EntitySet Name="Cliente" EntityType="Self.Cliente" />
+          <EntitySet Name="Mascota" EntityType="Self.Mascota" />
+          <EntitySet Name="Medicamento" EntityType="Self.Medicamento" />
+          <EntitySet Name="Servicio" EntityType="Self.Servicio" />
+          <EntitySet Name="Tipo" EntityType="Self.Tipo" />
+          <EntitySet Name="Usuarios" EntityType="Self.Usuarios" />
+          <EntitySet Name="Vacuna" EntityType="Self.Vacuna" />
+          <AssociationSet Name="FK_Servicio_ToTable" Association="Self.FK_Servicio_ToTable">
+            <End Role="Accesorio" EntitySet="Accesorio" />
+            <End Role="Servicio" EntitySet="Servicio" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Mascota_ToTable" Association="Self.FK_Mascota_ToTable">
+            <End Role="Cliente" EntitySet="Cliente" />
+            <End Role="Mascota" EntitySet="Mascota" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Mascota_ToTable_1" Association="Self.FK_Mascota_ToTable_1">
+            <End Role="Tipo" EntitySet="Tipo" />
+            <End Role="Mascota" EntitySet="Mascota" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Servicio_ToTable_2" Association="Self.FK_Servicio_ToTable_2">
+            <End Role="Mascota" EntitySet="Mascota" />
+            <End Role="Servicio" EntitySet="Servicio" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Medicamento_ToTable" Association="Self.FK_Medicamento_ToTable">
+            <End Role="Vacuna" EntitySet="Vacuna" />
+            <End Role="Medicamento" EntitySet="Medicamento" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Servicio_ToTable_1" Association="Self.FK_Servicio_ToTable_1">
+            <End Role="Medicamento" EntitySet="Medicamento" />
+            <End Role="Servicio" EntitySet="Servicio" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="DatabaseMyLoginModelStoreContainer" CdmEntityContainer="DatabaseMyLoginEntities1">
+          <EntitySetMapping Name="Accesorio">
+            <EntityTypeMapping TypeName="DatabaseMyLoginModel.Accesorio">
+              <MappingFragment StoreEntitySet="Accesorio">
+                <ScalarProperty Name="accesorioID" ColumnName="accesorioID" />
+                <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+                <ScalarProperty Name="Unidades" ColumnName="Unidades" />
+                <ScalarProperty Name="Precio" ColumnName="Precio" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Cliente">
+            <EntityTypeMapping TypeName="DatabaseMyLoginModel.Cliente">
+              <MappingFragment StoreEntitySet="Cliente">
+                <ScalarProperty Name="clienteID" ColumnName="clienteID" />
+                <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+                <ScalarProperty Name="Apellido" ColumnName="Apellido" />
+                <ScalarProperty Name="Ciudad" ColumnName="Ciudad" />
+                <ScalarProperty Name="Nit" ColumnName="Nit" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Mascota">
+            <EntityTypeMapping TypeName="DatabaseMyLoginModel.Mascota">
+              <MappingFragment StoreEntitySet="Mascota">
+                <ScalarProperty Name="mascotaID" ColumnName="mascotaID" />
+                <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+                <ScalarProperty Name="Edad" ColumnName="Edad" />
+                <ScalarProperty Name="Genero" ColumnName="Genero" />
+                <ScalarProperty Name="IDcliente" ColumnName="IDcliente" />
+                <ScalarProperty Name="IDtipo" ColumnName="IDtipo" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Medicamento">
+            <EntityTypeMapping TypeName="DatabaseMyLoginModel.Medicamento">
+              <MappingFragment StoreEntitySet="Medicamento">
+                <ScalarProperty Name="medicamentoID" ColumnName="medicamentoID" />
+                <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+                <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+                <ScalarProperty Name="Fecha_Caducidad" ColumnName="Fecha_Caducidad" />
+                <ScalarProperty Name="IDvacuna" ColumnName="IDvacuna" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Servicio">
+            <EntityTypeMapping TypeName="DatabaseMyLoginModel.Servicio">
+              <MappingFragment StoreEntitySet="Servicio">
+                <ScalarProperty Name="servicioID" ColumnName="servicioID" />
+                <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+                <ScalarProperty Name="Descripion" ColumnName="Descripion" />
+                <ScalarProperty Name="Precio" ColumnName="Precio" />
+                <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+                <ScalarProperty Name="IDaccesorio" ColumnName="IDaccesorio" />
+                <ScalarProperty Name="IDmedicamento" ColumnName="IDmedicamento" />
+                <ScalarProperty Name="IDmascota" ColumnName="IDmascota" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Tipo">
+            <EntityTypeMapping TypeName="DatabaseMyLoginModel.Tipo">
+              <MappingFragment StoreEntitySet="Tipo">
+                <ScalarProperty Name="tipoID" ColumnName="tipoID" />
+                <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+                <ScalarProperty Name="Raza" ColumnName="Raza" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Usuarios">
+            <EntityTypeMapping TypeName="DatabaseMyLoginModel.Usuarios">
+              <MappingFragment StoreEntitySet="Usuarios">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="NombreCompleto" ColumnName="NombreCompleto" />
+                <ScalarProperty Name="NombreUsuario" ColumnName="NombreUsuario" />
+                <ScalarProperty Name="Password" ColumnName="Password" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Vacuna">
+            <EntityTypeMapping TypeName="DatabaseMyLoginModel.Vacuna">
+              <MappingFragment StoreEntitySet="Vacuna">
+                <ScalarProperty Name="vacunaID" ColumnName="vacunaID" />
+                <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+                <ScalarProperty Name="Tipo" ColumnName="Tipo" />
+                <ScalarProperty Name="Dosis" ColumnName="Dosis" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Ninguno" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
