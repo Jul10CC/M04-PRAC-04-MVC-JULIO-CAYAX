@@ -5,20 +5,16 @@
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
       <Diagram DiagramId="cf45c17f6c6f4c30aad3537fc4da0cc6" Name="Diagram1" ZoomLevel="72">
-        <EntityTypeShape EntityType="DatabaseMyLoginModel.Accesorio" Width="1.5" PointX="5.5" PointY="0.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="DatabaseMyLoginModel.Cliente" Width="1.5" PointX="0.75" PointY="3" IsExpanded="true" />
-        <EntityTypeShape EntityType="DatabaseMyLoginModel.Mascota" Width="1.5" PointX="2.875" PointY="3" IsExpanded="true" />
-        <EntityTypeShape EntityType="DatabaseMyLoginModel.Medicamento" Width="1.5" PointX="8.5" PointY="3" IsExpanded="true" />
-        <EntityTypeShape EntityType="DatabaseMyLoginModel.Servicio" Width="1.5" PointX="5.5" PointY="3" IsExpanded="true" />
-        <EntityTypeShape EntityType="DatabaseMyLoginModel.Tipo" Width="1.5" PointX="2.875" PointY="6.25" IsExpanded="true" />
         <EntityTypeShape EntityType="DatabaseMyLoginModel.Usuarios" Width="1.5" PointX="0.75" PointY="0.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="DatabaseMyLoginModel.Vacuna" Width="1.5" PointX="8.5" PointY="6.375" IsExpanded="true" />
-        <AssociationConnector Association="DatabaseMyLoginModel.FK_Servicio_ToTable" ManuallyRouted="false" />
-        <AssociationConnector Association="DatabaseMyLoginModel.FK_Mascota_ToTable" ManuallyRouted="false" />
-        <AssociationConnector Association="DatabaseMyLoginModel.FK_Mascota_ToTable_1" ManuallyRouted="false" />
-        <AssociationConnector Association="DatabaseMyLoginModel.FK_Servicio_ToTable_2" ManuallyRouted="false" />
-        <AssociationConnector Association="DatabaseMyLoginModel.FK_Medicamento_ToTable" ManuallyRouted="false" />
-        <AssociationConnector Association="DatabaseMyLoginModel.FK_Servicio_ToTable_1" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="DatabaseMyLoginModel.Pago" Width="1.5" PointX="5.375" PointY="7.75" />
+        <EntityTypeShape EntityType="DatabaseMyLoginModel.Cliente" Width="1.5" PointX="3.375" PointY="0.75" />
+        <EntityTypeShape EntityType="DatabaseMyLoginModel.Destino" Width="1.5" PointX="5.375" PointY="4.125" />
+        <EntityTypeShape EntityType="DatabaseMyLoginModel.Entrega" Width="1.5" PointX="7.625" PointY="3.25" />
+        <EntityTypeShape EntityType="DatabaseMyLoginModel.Origen" Width="1.5" PointX="5.375" PointY="10.375" />
+        <AssociationConnector Association="DatabaseMyLoginModel.FK_Cliente_ToTable" />
+        <AssociationConnector Association="DatabaseMyLoginModel.FK_Destino_ToTable" />
+        <AssociationConnector Association="DatabaseMyLoginModel.FK_Origen_ToTable" />
+        <AssociationConnector Association="DatabaseMyLoginModel.FK_Pago_ToTable" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

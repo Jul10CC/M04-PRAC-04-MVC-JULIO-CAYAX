@@ -1,4 +1,4 @@
-﻿// La generación de código T4 está habilitada para el modelo 'E:\Universidad Mesoamericana\Sexto Semestre\Arquitectura del Sistemas\Visual Studio\MVC\MyLogin\MyLogin\Modelo.edmx'. 
+﻿// La generación de código T4 está habilitada para el modelo 'D:\Intecap\Cuarto Modulo\M04-PRAC-04-MVC-JULIO-CAYAX\ProyectoMVCRapidito\MyLogin\Modelo.edmx'. 
 // Para habilitar la generación de código heredada, cambie el valor de la propiedad del diseñador 'Estrategia de generación de código'
 // por 'ObjectContext heredado'. Esta propiedad está disponible en la ventana Propiedades cuando se abre
 // el modelo en el diseñador.

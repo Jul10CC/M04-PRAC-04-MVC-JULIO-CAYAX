@@ -1,14 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Schema Namespace="DatabaseMyLoginModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
-  <EntityType Name="Accesorio">
-    <Key>
-      <PropertyRef Name="accesorioID" />
-    </Key>
-    <Property Name="accesorioID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-    <Property Name="Nombre" Type="nchar" MaxLength="30" />
-    <Property Name="Unidades" Type="nchar" MaxLength="10" />
-    <Property Name="Precio" Type="nchar" MaxLength="10" />
-  </EntityType>
   <EntityType Name="Cliente">
     <Key>
       <PropertyRef Name="clienteID" />
@@ -19,47 +10,41 @@
     <Property Name="Ciudad" Type="nchar" MaxLength="30" />
     <Property Name="Nit" Type="nchar" MaxLength="30" />
   </EntityType>
-  <EntityType Name="Mascota">
+  <EntityType Name="Destino">
     <Key>
-      <PropertyRef Name="mascotaID" />
+      <PropertyRef Name="Id" />
     </Key>
-    <Property Name="mascotaID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-    <Property Name="Nombre" Type="nchar" MaxLength="30" />
-    <Property Name="Edad" Type="nchar" MaxLength="10" />
-    <Property Name="Genero" Type="nchar" MaxLength="30" />
-    <Property Name="IDcliente" Type="int" />
-    <Property Name="IDtipo" Type="int" />
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="nvarchar" MaxLength="50" />
   </EntityType>
-  <EntityType Name="Medicamento">
+  <EntityType Name="Entrega">
     <Key>
-      <PropertyRef Name="medicamentoID" />
+      <PropertyRef Name="Id" />
     </Key>
-    <Property Name="medicamentoID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-    <Property Name="Nombre" Type="nchar" MaxLength="30" />
-    <Property Name="Cantidad" Type="nchar" MaxLength="30" />
-    <Property Name="Fecha_Caducidad" Type="nchar" MaxLength="30" />
-    <Property Name="IDvacuna" Type="int" />
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DireccionOrigen" Type="nvarchar" MaxLength="50" />
+    <Property Name="UbicacionOrigen" Type="int" />
+    <Property Name="Producto" Type="varchar" MaxLength="50" />
+    <Property Name="Descripcion" Type="varchar" MaxLength="50" />
+    <Property Name="Peso" Type="nvarchar" MaxLength="50" />
+    <Property Name="DireccionDestino" Type="varchar" MaxLength="50" />
+    <Property Name="UbicacionDestino" Type="int" />
+    <Property Name="Cliente" Type="int" />
+    <Property Name="Pago" Type="int" />
   </EntityType>
-  <EntityType Name="Servicio">
+  <EntityType Name="Origen">
     <Key>
-      <PropertyRef Name="servicioID" />
+      <PropertyRef Name="Id" />
     </Key>
-    <Property Name="servicioID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-    <Property Name="Nombre" Type="nchar" MaxLength="30" />
-    <Property Name="Descripion" Type="nchar" MaxLength="30" />
-    <Property Name="Precio" Type="nchar" MaxLength="30" />
-    <Property Name="Fecha" Type="nchar" MaxLength="30" />
-    <Property Name="IDaccesorio" Type="int" />
-    <Property Name="IDmedicamento" Type="int" />
-    <Property Name="IDmascota" Type="int" />
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="varchar" MaxLength="50" />
   </EntityType>
-  <EntityType Name="Tipo">
+  <EntityType Name="Pago">
     <Key>
-      <PropertyRef Name="tipoID" />
+      <PropertyRef Name="Id" />
     </Key>
-    <Property Name="tipoID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-    <Property Name="Nombre" Type="nchar" MaxLength="20" />
-    <Property Name="Raza" Type="nchar" MaxLength="20" />
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="varchar" MaxLength="50" />
   </EntityType>
   <EntityType Name="Usuarios">
     <Key>
@@ -70,119 +55,76 @@
     <Property Name="NombreUsuario" Type="nvarchar" MaxLength="50" />
     <Property Name="Password" Type="nvarchar" MaxLength="50" />
   </EntityType>
-  <EntityType Name="Vacuna">
-    <Key>
-      <PropertyRef Name="vacunaID" />
-    </Key>
-    <Property Name="vacunaID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-    <Property Name="Nombre" Type="nchar" MaxLength="30" />
-    <Property Name="Tipo" Type="nchar" MaxLength="30" />
-    <Property Name="Dosis" Type="nchar" MaxLength="30" />
-  </EntityType>
-  <Association Name="FK_Mascota_ToTable">
+  <Association Name="FK_Cliente_ToTable">
     <End Role="Cliente" Type="Self.Cliente" Multiplicity="0..1" />
-    <End Role="Mascota" Type="Self.Mascota" Multiplicity="*" />
+    <End Role="Entrega" Type="Self.Entrega" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="Cliente">
         <PropertyRef Name="clienteID" />
       </Principal>
-      <Dependent Role="Mascota">
-        <PropertyRef Name="IDcliente" />
+      <Dependent Role="Entrega">
+        <PropertyRef Name="Cliente" />
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK_Mascota_ToTable_1">
-    <End Role="Tipo" Type="Self.Tipo" Multiplicity="0..1" />
-    <End Role="Mascota" Type="Self.Mascota" Multiplicity="*" />
+  <Association Name="FK_Destino_ToTable">
+    <End Role="Destino" Type="Self.Destino" Multiplicity="0..1" />
+    <End Role="Entrega" Type="Self.Entrega" Multiplicity="*" />
     <ReferentialConstraint>
-      <Principal Role="Tipo">
-        <PropertyRef Name="tipoID" />
+      <Principal Role="Destino">
+        <PropertyRef Name="Id" />
       </Principal>
-      <Dependent Role="Mascota">
-        <PropertyRef Name="IDtipo" />
+      <Dependent Role="Entrega">
+        <PropertyRef Name="UbicacionDestino" />
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK_Medicamento_ToTable">
-    <End Role="Vacuna" Type="Self.Vacuna" Multiplicity="0..1" />
-    <End Role="Medicamento" Type="Self.Medicamento" Multiplicity="*" />
+  <Association Name="FK_Origen_ToTable">
+    <End Role="Origen" Type="Self.Origen" Multiplicity="0..1" />
+    <End Role="Entrega" Type="Self.Entrega" Multiplicity="*" />
     <ReferentialConstraint>
-      <Principal Role="Vacuna">
-        <PropertyRef Name="vacunaID" />
+      <Principal Role="Origen">
+        <PropertyRef Name="Id" />
       </Principal>
-      <Dependent Role="Medicamento">
-        <PropertyRef Name="IDvacuna" />
+      <Dependent Role="Entrega">
+        <PropertyRef Name="UbicacionOrigen" />
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK_Servicio_ToTable">
-    <End Role="Accesorio" Type="Self.Accesorio" Multiplicity="0..1" />
-    <End Role="Servicio" Type="Self.Servicio" Multiplicity="*" />
+  <Association Name="FK_Pago_ToTable">
+    <End Role="Pago" Type="Self.Pago" Multiplicity="0..1" />
+    <End Role="Entrega" Type="Self.Entrega" Multiplicity="*" />
     <ReferentialConstraint>
-      <Principal Role="Accesorio">
-        <PropertyRef Name="accesorioID" />
+      <Principal Role="Pago">
+        <PropertyRef Name="Id" />
       </Principal>
-      <Dependent Role="Servicio">
-        <PropertyRef Name="IDaccesorio" />
-      </Dependent>
-    </ReferentialConstraint>
-  </Association>
-  <Association Name="FK_Servicio_ToTable_1">
-    <End Role="Medicamento" Type="Self.Medicamento" Multiplicity="0..1" />
-    <End Role="Servicio" Type="Self.Servicio" Multiplicity="*" />
-    <ReferentialConstraint>
-      <Principal Role="Medicamento">
-        <PropertyRef Name="medicamentoID" />
-      </Principal>
-      <Dependent Role="Servicio">
-        <PropertyRef Name="IDmedicamento" />
-      </Dependent>
-    </ReferentialConstraint>
-  </Association>
-  <Association Name="FK_Servicio_ToTable_2">
-    <End Role="Mascota" Type="Self.Mascota" Multiplicity="0..1" />
-    <End Role="Servicio" Type="Self.Servicio" Multiplicity="*" />
-    <ReferentialConstraint>
-      <Principal Role="Mascota">
-        <PropertyRef Name="mascotaID" />
-      </Principal>
-      <Dependent Role="Servicio">
-        <PropertyRef Name="IDmascota" />
+      <Dependent Role="Entrega">
+        <PropertyRef Name="Pago" />
       </Dependent>
     </ReferentialConstraint>
   </Association>
   <EntityContainer Name="DatabaseMyLoginModelStoreContainer">
-    <EntitySet Name="Accesorio" EntityType="Self.Accesorio" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Cliente" EntityType="Self.Cliente" Schema="dbo" store:Type="Tables" />
-    <EntitySet Name="Mascota" EntityType="Self.Mascota" Schema="dbo" store:Type="Tables" />
-    <EntitySet Name="Medicamento" EntityType="Self.Medicamento" Schema="dbo" store:Type="Tables" />
-    <EntitySet Name="Servicio" EntityType="Self.Servicio" Schema="dbo" store:Type="Tables" />
-    <EntitySet Name="Tipo" EntityType="Self.Tipo" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Destino" EntityType="Self.Destino" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Entrega" EntityType="Self.Entrega" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Origen" EntityType="Self.Origen" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Pago" EntityType="Self.Pago" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Usuarios" EntityType="Self.Usuarios" Schema="dbo" store:Type="Tables" />
-    <EntitySet Name="Vacuna" EntityType="Self.Vacuna" Schema="dbo" store:Type="Tables" />
-    <AssociationSet Name="FK_Mascota_ToTable" Association="Self.FK_Mascota_ToTable">
+    <AssociationSet Name="FK_Cliente_ToTable" Association="Self.FK_Cliente_ToTable">
       <End Role="Cliente" EntitySet="Cliente" />
-      <End Role="Mascota" EntitySet="Mascota" />
+      <End Role="Entrega" EntitySet="Entrega" />
     </AssociationSet>
-    <AssociationSet Name="FK_Mascota_ToTable_1" Association="Self.FK_Mascota_ToTable_1">
-      <End Role="Tipo" EntitySet="Tipo" />
-      <End Role="Mascota" EntitySet="Mascota" />
+    <AssociationSet Name="FK_Destino_ToTable" Association="Self.FK_Destino_ToTable">
+      <End Role="Destino" EntitySet="Destino" />
+      <End Role="Entrega" EntitySet="Entrega" />
     </AssociationSet>
-    <AssociationSet Name="FK_Medicamento_ToTable" Association="Self.FK_Medicamento_ToTable">
-      <End Role="Vacuna" EntitySet="Vacuna" />
-      <End Role="Medicamento" EntitySet="Medicamento" />
+    <AssociationSet Name="FK_Origen_ToTable" Association="Self.FK_Origen_ToTable">
+      <End Role="Origen" EntitySet="Origen" />
+      <End Role="Entrega" EntitySet="Entrega" />
     </AssociationSet>
-    <AssociationSet Name="FK_Servicio_ToTable" Association="Self.FK_Servicio_ToTable">
-      <End Role="Accesorio" EntitySet="Accesorio" />
-      <End Role="Servicio" EntitySet="Servicio" />
-    </AssociationSet>
-    <AssociationSet Name="FK_Servicio_ToTable_1" Association="Self.FK_Servicio_ToTable_1">
-      <End Role="Medicamento" EntitySet="Medicamento" />
-      <End Role="Servicio" EntitySet="Servicio" />
-    </AssociationSet>
-    <AssociationSet Name="FK_Servicio_ToTable_2" Association="Self.FK_Servicio_ToTable_2">
-      <End Role="Mascota" EntitySet="Mascota" />
-      <End Role="Servicio" EntitySet="Servicio" />
+    <AssociationSet Name="FK_Pago_ToTable" Association="Self.FK_Pago_ToTable">
+      <End Role="Pago" EntitySet="Pago" />
+      <End Role="Entrega" EntitySet="Entrega" />
     </AssociationSet>
   </EntityContainer>
 </Schema>
